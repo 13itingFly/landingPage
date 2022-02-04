@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 5px 250px 0 250px;
+    height: 75px;
+
+}
+
+.headLinkBox {
+    margin-left: auto;
+
+}
+
+.headLink {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.titleContainer {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #1F2937;
+    padding: 0 250px 0 250px;
+    height: 25vh;
+}
+
+.titleSubBox1 {
+    display: flex;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.titleSubBox2{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.titleImg {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+}
+
+.infoContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: center;
+    height: 25vh;
+}
+
+.infoHead {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 0 250px 0 250px;
+}
+
+.imgBox {
+    border: 5px #3882F6;
+    height: 100px;
+    width: 100px;
+}
+
+#img100 {
+    height: 100%;
+    width: 100%;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 0 250px 0 250px;
+    height: 25vh;
+}
+
+.quoteBox {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: oblique;
+    flex: 1 1 auto;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 600px;
+}
+
+.quoted{
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.contactContainer {
+    background-color: ;
+    padding: 0 250px 0 250px;
+}
+
+.footer {
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 0 250px 0 250px;
+    height: 75px;
+
+}
+
+.button1 {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 7px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
